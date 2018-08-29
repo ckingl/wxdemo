@@ -1,0 +1,12 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="input-common">
+
+  <input placeholder="用户名" auto-focus/>
+</view>
+<view class="input-common">
+  <input placeholder="密码" password='true'/>
+</view>
+  <view class="btn-area">
+    <button formType="submit" type='primary' bindtap='login'>登录</button>
+  </view>
+  </form>

@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<view>
+  <view wx:key="{{item}}" class='home-item' wx:for='{{menuItems}}' data-item='{{item}}' bindtap="goTodetail">{{item.name}}</view>
+</view>

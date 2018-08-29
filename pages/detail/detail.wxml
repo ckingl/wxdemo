@@ -1,0 +1,15 @@
+<!--pages/detail/detail.wxml-->
+<view>
+ <view>
+   <input placeholder='请输入搜索条件' confirm-type="search" bindconfirm='search' class='search-input'></input>
+ </view>
+ <scroll-view class='detail-item-area'> 
+   <view class='detail-item' wx:for="{{detailItems}}" wx:key="{{i}}">
+     <view><label>工单编码：</label><text>{{item.workOrderNumber}}</text></view>
+     <view><label>产品编码：</label><text>{{item.workOrderNumber}}</text></view>
+     <view><label>产品名称：</label><text>{{item.workOrderNumber}}</text></view>
+     <view><label>pcb：</label><text>{{item.workOrderNumber}}</text></view>
+     <view><label>状态：</label><text>{{item.workOrderNumber}}</text></view>
+   </view>
+ </scroll-view>
+</view>

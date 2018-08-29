@@ -1,0 +1,14 @@
+/* pages/home/home.wxss */
+.home-item{
+  height:50px;
+  width:30%;
+  background: blue;
+  display: inline-block;
+  margin:5px;
+  text-align: center;
+  color:#fff;
+  line-height: 50px;
+}
+.home-item:hover{
+  background: #0099ff;
+}

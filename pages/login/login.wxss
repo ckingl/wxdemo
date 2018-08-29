@@ -1,0 +1,11 @@
+/* pages/login/login.wxss */
+.input-common{
+  padding:10px;
+  border-bottom:1px solid #ddd;
+  margin:0 10px;
+}
+
+.btn-area{
+  margin-top:20px;
+  margin:20px 20px 0;
+}
